@@ -20,9 +20,7 @@
      "host":{
         "mode":"production",
         "cors":{
-           "origins":[
-              
-           ],
+           "origins":[],
            "allow-credentials":false
         },
         "authentication":{
