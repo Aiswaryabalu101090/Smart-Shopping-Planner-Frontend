@@ -10,7 +10,7 @@
   "runtime":{
      "rest":{
         "enabled":true,
-        "path":"/data-api/api"
+        "path":"/data-api/api/Item"
      },
      "graphql":{
         "allow-introspection":true,
