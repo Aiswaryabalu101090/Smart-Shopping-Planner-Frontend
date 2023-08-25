@@ -29,16 +29,14 @@
      }
   },
   "entities":{
-     "Item":{
-        "source":"dbo.ShoppingItems",
-        "permissions":[
-           {
-              "actions":[
-                 "*"
-              ],
-              "role":"admin"
-           }
-        ]
-     }
+   "Item": {
+      "source": "dbo.ShoppingItems",
+      "permissions": [
+        {
+          "actions": ["*"],
+          "role": "anonymous"
+        }
+      ]
+   }
   }
 }
